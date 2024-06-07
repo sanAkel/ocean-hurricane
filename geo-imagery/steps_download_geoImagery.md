@@ -23,7 +23,7 @@
      - Go to the [NOAA Office of Satellite and Product Operations] (https://www.ospo.noaa.gov/Products/imagery/archive.html). NOAA operates _weather and operational forecasting_ satellites, NASA satellites are for _science missions_.
      - [Satellite Inventory Browser](https://www.ssec.wisc.edu/datacenter/goes-archive/)
      - For 08/25- 09/01, 2023, Atlantic, use [**GOES-16 imagery**](https://inventory.ssec.wisc.edu/inventory/?date=2011/10/18&time=&satellite=GOES-16&search=1#search&start_time:2017-12-19%2000:00;end_time:2017-12-19%2023:59;satellite:GOES-16;). It's imager has [**16-bands**](https://en.wikipedia.org/wiki/GOES-16) in the infrared part of the electromagnetic spectrum, we'll use the [11.2 micro meter band](https://en.wikipedia.org/wiki/GOES-16#Advanced_Baseline_Imager_(ABI)) which provides imagery of [clouds and water vapor](https://www.star.nesdis.noaa.gov/goes/documents/ABIQuickGuide_Band14.pdf).
-   - Follow [these instructions steps](https://drive.google.com/drive/folders/1uqtCVqfsock52Q02Tv-FyZt56jStngJG?usp=sharing)
+   - Follow [these instructions steps](https://drive.google.com/drive/folders/16tp_ehG0ZOmSwY55yo4L1q701i-xL7uQ?usp=drive_link)
    
      A. [Search](https://inventory.ssec.wisc.edu/inventory/)
      
