@@ -1,5 +1,5 @@
-.DS_Store
+saved_data/*
 .ipynb_checkpoints/*
-
+.DS_Store
 *.png
 *.nc
