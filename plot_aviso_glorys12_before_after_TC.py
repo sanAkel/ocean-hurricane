@@ -28,7 +28,7 @@ def get_plot_times(track_ds, day_buffer):
     return tPlot
 
 def plot_aviso_glorys12_time_instant(aviso_ds, glorys12_ds, track_ds, vName_aviso, vName_glorys12, time_inst, DPI=120):
-    if vName_aviso == "U":
+    if vName_aviso == "surfCurr":
         vMin, vMax, cMap = [0., 1., "Blues"]
         #label_str = "Geostrophic current speed [ms$^{-1}$]"
         label_str = "Current speed [ms$^{-1}$]"
@@ -88,7 +88,7 @@ def plot_aviso_glorys12_time_instant(aviso_ds, glorys12_ds, track_ds, vName_avis
 
 ## Inputs
 
-year=2024
+year=2023
 myBasin='north_atlantic'
 cat_threshold = 4
 
@@ -120,12 +120,12 @@ for hurr_name in major_hurr_names:
   aviso_U = np.sqrt(aviso_ds.ugos**2+aviso_ds.vgos**2)
   glorys12_U = np.sqrt(glorys12_ds.uo**2+glorys12_ds.vo**2)
   
-  aviso_ds['U'] = aviso_U
-  glorys12_ds['U'] = glorys12_U
+  aviso_ds['surfCurr'] = aviso_U
+  glorys12_ds['surfCurr'] = glorys12_U
     
   tPlot = get_plot_times(track_ds, day_buffer) # Pick a few time slices (to plot)
   for time_inst in tPlot:
       print("Plotting at:\t{}".format(time_inst))
       
-      plot_aviso_glorys12_time_instant(aviso_ds, glorys12_ds, track_ds, "U", "U", time_inst)
+      plot_aviso_glorys12_time_instant(aviso_ds, glorys12_ds, track_ds, "surfCurr", "surfCurr", time_inst)
       plot_aviso_glorys12_time_instant(aviso_ds, glorys12_ds, track_ds, "adt", "zos", time_inst)

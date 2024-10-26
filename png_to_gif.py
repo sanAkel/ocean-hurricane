@@ -21,10 +21,10 @@ def make_gif_from_pngs(data_path, png_files, fPref, fSuff='.gif', DUR=1000, LOOP
   print('\nSaved:\t{}\n'.format(fOut))
 # --
 
-year=2024
+year=2022
 myBasin='north_atlantic'
 cat_threshold=4
-fTypes = ['adt', 'U']
+fTypes = ['adt', 'surfCurr']
 
 data_path = '/work/noaa/marine/sakella/' + '/data/hurr/{}/'.format(year)
 png_files_path = '/work/noaa/marine/sakella/' + 'ssh_tc/figs/'
@@ -43,5 +43,6 @@ for hurr_name in major_hurr_names:
    fNames = sorted( glob.glob( png_files_path + hurr_name+'*{}*'.format(fType)+'.png'))
    fPref_with_path = fNames[0].split('{}'.format(year))[0]
    fPref = fPref_with_path.split('/')[-1]
+   #print(fNames)
    #print(fPref)
-   make_gif_from_pngs(png_files_path+'gif/', fNames, fPref)
+   make_gif_from_pngs(png_files_path+'gif-{}/'.format(year), fNames, fPref)
