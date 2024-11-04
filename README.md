@@ -7,7 +7,7 @@
 - [Glue png files to make a single gif animated file](https://github.com/sanAkel/ocean-hurricane/blob/main/png_to_gif.py)
 - [Download Glorys12 subsurface data at time and location of storm- along storm track](https://github.com/sanAkel/ocean-hurricane/blob/main/download_along_track.ipynb)
   - **Note**: It takes a while (about 60 min) for this API to extract such data.
-- [Download and plot satellite data products for any storm](https://github.com/sanAkel/ocean-hurricane/blob/main/animate_satellite_data_hurr_track.ipynb). Satellite products:
+- [Download and animate (gif) satellite data products for any storm](https://github.com/sanAkel/ocean-hurricane/blob/main/animate_satellite_data_hurr_track.ipynb). Satellite products:
   - AVISO (SLA, Geostrophic currents, SSH); daily.
   - OSTIA SST; daily.
   - CNS SSS, density; daily (near-real time version).
