@@ -14,6 +14,7 @@
 - Compare satellite data products with ocean reanalysis (Mercator Glorys for now), comparison is done over a few days before, during, and after the hurricane:
   - [AVISO ADT with Glorys SSH.](https://github.com/sanAkel/ocean-hurricane/blob/main/compare_SSH_GLO12_one_HURR.ipynb)
   - [OSTIA SST with Glorys thetao (top level).](https://github.com/sanAkel/ocean-hurricane/blob/main/compare_SST_GLO12_one_HURR.ipynb)
+  - [CNS SSS with Glorys so (top level)](https://github.com/sanAkel/ocean-hurricane/blob/main/compare_SSS_GLO12_one_HURR.ipynb)
 
 ### Remarks: 
 - Following are being kept, but not needed because above plotting scripts deprecate them, but kept for future use:
