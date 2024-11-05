@@ -11,7 +11,9 @@
   - AVISO (SLA, Geostrophic currents, SSH); daily.
   - OSTIA SST; daily.
   - CNS SSS, density; daily (near-real time version).
-- [Compare AVISO (ADT) with Glorys SSH few days before, during, and after the hurricane.](https://github.com/sanAkel/ocean-hurricane/blob/main/compare_SSH_GLO12_one_HURR.ipynb)
+- Compare satellite data products with ocean reanalysis (Mercator Glorys for now), comparison is done over a few days before, during, and after the hurricane:
+  - [AVISO ADT with Glorys SSH.](https://github.com/sanAkel/ocean-hurricane/blob/main/compare_SSH_GLO12_one_HURR.ipynb)
+  - [OSTIA SST with Glorys thetao (top level).](https://github.com/sanAkel/ocean-hurricane/blob/main/compare_SST_GLO12_one_HURR.ipynb)
 
 ### Remarks: 
 - Following are being kept, but not needed because above plotting scripts deprecate them, but kept for future use:
