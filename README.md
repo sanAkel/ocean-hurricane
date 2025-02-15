@@ -23,4 +23,4 @@
   - [Plot AVISO fields on min MSLP day](https://github.com/sanAkel/ocean-hurricane/blob/main/plot_aviso_fields_at_min_SLP.ipynb)
   - [Same as above, but for many days](https://github.com/sanAkel/ocean-hurricane/blob/main/plot_aviso_fields_hurr_track.ipynb)
 - A few lines of code will repeat in many notebooks to read downloaded storm data (using tropycal), this was done to avoid package conflicts     on [google colab](https://colab.research.google.com/). All these notebooks are meant to run in colab environment for enhance portability.
-- If NOAA security would allow mounting google drive, much of our life will be simpler. But when did _security_ folks really understand developers needs?
+- If it was allowed to mount google drive (on certain platforms), much of our life will be simpler. But when did _all_ folks really understand developers needs?
