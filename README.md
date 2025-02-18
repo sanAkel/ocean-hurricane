@@ -18,7 +18,7 @@
   - [GLOBCURRENT surface (z=0) speed with that from Glorys](https://github.com/sanAkel/ocean-hurricane/blob/main/compare_surfCurrents_GLO12_one_HURR.ipynb)
 - [Plot storm track (mslp, wind speed); SSH, SST, SSS; Subsurface T and S](https://github.com/sanAkel/ocean-hurricane/blob/main/plot_before_after_storm.ipynb)
 
-  - `prep_data/`: Contains scripts to download different datasets and prepare them for inter-comparison.
+- `prep_data/`: Contains scripts to download different datasets and prepare them for inter-comparison.
 
 ### Remarks: 
 - Following are being kept, but not needed because above plotting scripts deprecate them, but kept for future use:
